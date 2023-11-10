@@ -1,3 +1,54 @@
+.svg{
+    margin-top: 49px;
+    margin-left: 135px;
+}
+
+.svg1 {
+    margin-top: 5px;
+    margin-left: 203px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.svg2 {
+    margin-top: 5.5px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.svg3 {
+    margin-top: 5.5px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.svg4 {
+    margin-top: 5.5px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.input1{
+    background-color: #FFFDF5;
+    font-family: Roboto;
+    color: #7D7D7D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 34.5%;
+    height: 20px;
+}
+.input{
+    margin-top: -35px;
+    display: flex;
+    margin-left: 590px; 
+    width: 69.5%; 
+}
+
 .div2{
     width:100%;
     background: #FFFDF5;
@@ -6,7 +57,7 @@
 }
 
 .jeans img{
-    width:130%;
+    width:50%;
     margin-top: 86px;
     max-height: 600px;
     margin-left: 226px;
@@ -16,7 +67,7 @@
 .left{
     margin-top: 86px;
     margin-left: 135px;
-    width: 50%;
+    width: 30%;
     float: left; 
 }
 
@@ -53,14 +104,14 @@
     color: #FFFDF5;
 }
 
-.arr{
+.strelkakat{
     color: #514A7E;
     margin-left: 50%;
     
 }
 
 .btns:hover{
-    .arr{ 
+    .strelkakat{ 
         stroke: #ffffff;
         margin-left: 50%;  
     }
@@ -161,10 +212,10 @@ margin-top: 55px;
 
 .polukr{
     position: relative;
-    right: -14.5%;
-    margin-top: -30%; 
+    right: -28%;
+    margin-top: -18%; 
     margin-left: 10px;
-    width: 2000%;
+    width: 80%;
 }
 
 .db {
@@ -221,7 +272,7 @@ margin-top: 55px;
 }
 
 .vd {
-    padding-left: 50%;
+    padding-left: 45%;
     margin-top: 20px;
     display: flex;
     width: 150px;
@@ -236,8 +287,8 @@ margin-top: 55px;
 
 .img_krug4{
     position:relative;
-    width: 30%;
-    margin-left: 250px;
+    width: 24%;
+    margin-left: 260px;
     margin-top: -25px;
 }
 
@@ -260,7 +311,7 @@ margin-top: 55px;
     position:relative;
     width: 12%;
     margin-left: 440px;
-    margin-top: -40px;
+    margin-top: -50px;
 
 }
 

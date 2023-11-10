@@ -21,25 +21,25 @@ const CrOpener = function(){
 <div class = "button">
 
 <div class = "button3" >
-    <NavLink to = "">
-    <button type = 'button'> Не помню пароль </button>
-    </NavLink>
-</div>
-
-<div class = "button1" >
     {/* <NavLink to = ""> */}
-    <button type = 'button'> Войти в кабинет</button>
+    <button type = 'button'> Не помню пароль </button>
     {/* </NavLink> */}
 </div>
 
+<div class = "button1" >
+    <NavLink to = "/vk">
+    <button type = 'button'> Войти в кабинет</button>
+    </NavLink>
+</div>
+
 <div class = "button2" >
-    <NavLink to = "Регистрация">
+    <NavLink to = "/Регистрация">
     <button type = 'button'> Регистрация </button>
     </NavLink>
 </div>
 
 <div class = "button4" >
-    <NavLink to = "/">
+    <NavLink to = "/x">
     <button type = 'button'> X </button>
     </NavLink>
 </div>
