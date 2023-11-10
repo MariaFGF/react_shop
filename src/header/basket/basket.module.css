@@ -1,0 +1,40 @@
+.tovar{
+    display: flex;
+    
+    }
+    .div1{display: flex;}
+    .btnstrelka{
+        border-radius: 50%;
+        width: 72px;
+    height: 72px;
+    background-color:#514A7E ;
+    }
+    .bntback{
+        width: 43px;
+    height: 43px;
+        border-radius: 100%;
+    }
+    .basket{
+        display: grid;
+        grid-template-columns: repeat(3, 15%);
+        grid-template-rows: repeat(2, 30%);
+    }
+    .basketkoltov{
+        display: grid;
+        grid-template-columns: repeat(4, 15%);
+        grid-template-rows: repeat(4, 40%);
+    
+    }
+    .img{
+        grid-column-start: 1;  
+        grid-row: 1;
+    }
+    
+    .basketkoltov h2{
+    width: 10px;
+    height: 5px;
+    line-height: 0;
+        /* grid-column-start: 2;   */
+        grid-row-start: 1;
+        grid-column: 4;
+    }
