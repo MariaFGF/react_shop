@@ -1,21 +1,20 @@
 body{
-    width: 1440px;
-    height: 526px;
-    flex-shrink: 0;
     background: #FFFDF5;
+}
+
+.div {
+
 }
 
 .reg {
     display: flex;
     width: 240px;
     height: 24px;
-    flex-shrink: 0;
     color: #121212;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
     font-weight: 300;
-    line-height: 87.305%;
     margin-top: 110px;
     margin-left: 135px;
 }
@@ -23,51 +22,48 @@ body{
 .reg1 input{
     margin-top: 74px;
     margin-left: 135px;
-    flex-shrink: 0;
     color: #7D7D7D;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 300;
-    line-height: 118%;
     border-left: none;
     border-right: none;
     border-top: none;
     background-color: #FFFDF5;
     width: 372px;
+    border-bottom: 0.5px solid #7D7D7D;
 }
 
 .reg2 input{
     margin-top: 20px;
     margin-left: 135px;
-    flex-shrink: 0;
     color: #7D7D7D;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 118%;
     border-left: none;
     border-right: none;
     border-top: none;
     background-color: #FFFDF5;
     width: 372px;
+    border-bottom: 0.5px solid #7D7D7D;
 }
 
 .reg3 input{
     margin-top: 20px;
     margin-left: 135px;
-    flex-shrink: 0;
     color: #7D7D7D;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 118%;
     border-left: none;
     border-right: none;
     border-top: none;
     background-color: #FFFDF5;
     width: 372px;
+    border-bottom: 0.5px solid #7D7D7D;
 }
 
 .btn {
@@ -77,37 +73,33 @@ body{
     color: white;
     width: 148px;
     height: 37px;
-    flex-shrink: 0;
     border: 0.5px solid #514A7E;
     text-align: center;
+    font-weight: 300;
 }
 
 .btn:hover {
-    width: 158px;
-    height: 47px;
+    background-color: #605895;
+    border: 0.5px solid #605895;
 }
 
 .img {
     margin-left: 20px;
 }
 
-
 .btn1 {
     margin-top: -39px;
     margin-left: 50px;
     justify-content: center;
-    flex-shrink: 0;
     color: #121212;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     width: 149.28px;
     height: 37px;
-    flex-shrink: 0;
     background: #FFFDF5;
-    color: black;
+    font-weight: 300;
+    border: 0.5px solid #121212;
 }
 
 .btn1:hover {
@@ -118,17 +110,17 @@ body{
 .btn2 button{
     display: block;
     border-radius: 50%;
-    margin-left: 1241px;
-    margin-top: -750px;
-    width: 47px;
-    height: 47px;
+    margin-left: 1341px;
+    margin-top: -415px;
+    width: 57px;
+    height: 57px;
     box-shadow: 0px 4px 10px 0px #514A7E66;
-    flex-shrink: 0;
     background-color: #514A7E;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
     font-size: 20px;
-    flex-shrink: 0;
     color: #FFFDF5;
+    font-weight: 300;
+    font-family: Roboto;
 }
 
 .btn3 button{
@@ -140,14 +132,13 @@ body{
     border-bottom: none;
     margin-top: 20px;
     margin-left: 145px;
-    flex-shrink: 0;
     color: #7D7D7D;
     text-align: center;
     font-family: Roboto;
     font-size: 10px;
     font-style: normal;
-    font-weight: 100;
     line-height: 118%; 
+    font-weight: 300;
 }
 
 .btn3 button:hover {
@@ -155,8 +146,8 @@ body{
 }
 
 .img1 {
-    margin-left: -225px;
-    margin-top: 1px;
+    margin-left: -245px;
+    margin-top: 0.5px;
     stroke-width: 0.5px;
     stroke: #514A7E;
 }

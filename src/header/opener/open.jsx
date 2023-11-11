@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom"
 
 const CrOpener = function(){
     return(
-<div>
+<div class = "bodyv">
         <header class='App'>
         <h2>Вход в личный кабинет</h2>
-      </header>
+        </header>
 
         <div class = "input">  
             <div class = "input1">
@@ -44,7 +44,7 @@ const CrOpener = function(){
     </NavLink>
 </div>
 
-<div class="img"> <img class="img" src="./img/Ellipse 2.png"/></div>  
+{/* <div class="img"> <img class="img" src="./img/Ellipse 2.png"/></div>   */}
 
 </div>
 </div>
