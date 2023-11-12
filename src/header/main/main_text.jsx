@@ -31,9 +31,11 @@ function PrText(){
 
             <div class ={a.text1}>
                 <div class={a.text1_1}>
+                    <section>
                     <div class={a.krug_strelka}>
                         <img class={a.img_krug3} src="./img/наверх.svg"/>
                     </div>
+                    </section>
                     
                     <div><h2 class={a.vd}>Возможность доставки в любой город России</h2>
                         <img class={a.img_krug4} src="./img/Ellipse 4.svg"/>
@@ -54,4 +56,16 @@ function PrText(){
         </div>
     )
 }
+
+// const goTopbtn = document.querySelector(".img_krug3")
+
+// goTopbtn.addEventListener("click", goTop)
+
+// function goTop() {
+//     if (window.pageYOffset > 0) {
+//         window.scrollBy (0, -75)
+//         setTimeout(goTop, 0)
+//     }
+// }
+
 export{PrText}

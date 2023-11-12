@@ -2,7 +2,7 @@ import React from 'react';
 import a from './main.module.css'
 import {Mas} from './mas.jsx'
 import {PrBuy} from './profile.jsx'
-console.log(Mas[1].price)
+// console.log(Mas[1].price)
 function Buy(){
     return(
     <div class={a.div}>

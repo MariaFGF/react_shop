@@ -4,6 +4,8 @@ import { CrHeader } from './header1'
 import { PrText } from './main_text'
 import { PrMain } from './main_main'
 import { Buy } from './main_buy'
+import { Otz } from './main_otz'
+
 function CrMain(){
     return(
         <div class={a.ob_div}>
@@ -11,6 +13,7 @@ function CrMain(){
               <PrMain/>
               <PrText/>
               <Buy/>
+              <Otz/>
         </div>
       
     )

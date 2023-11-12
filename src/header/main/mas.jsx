@@ -5,7 +5,7 @@ let Mas=[
         price:"1500р.",
         old_price:"3000р.",
         category:"Платье женское",
-        ozenka:4
+        ozenka:4,
     },
 
     {
@@ -13,7 +13,7 @@ let Mas=[
         price:"2000р.",
         old_price:"3000р.",
         category:"Блузка женская",
-        ozenka:4
+        ozenka:4,
    },
 
    {
@@ -21,8 +21,7 @@ let Mas=[
         price:"999р.",
         old_price:"1700р.",
         category:"Платье женское",
-        ozenka:4
-
+        ozenka:4,
     },
 
     {
@@ -30,7 +29,7 @@ let Mas=[
         price:"1500р.",
         old_price:"2000р.",
         category:"Платье женское",
-        ozenka:3
+        ozenka:3,
     }
 
 ]
