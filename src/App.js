@@ -3,9 +3,9 @@ import './App.css';
 
 import { CrOpener } from './header/opener/open';
 import { CrMain } from './header/main/main.jsx';
-import { CrBasket } from './header/basket/basket.jsx';
+import { CrBasket } from './header/basket/mainb.jsx';
 import { CrRegistration } from './header/registration/registration.jsx';
-import { CrFavourites } from './header/favourites/favourites.jsx';
+import { CrFavourites } from './header/favourites/mainf.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
 
 function App() {
