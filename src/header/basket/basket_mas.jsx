@@ -7,7 +7,8 @@ let MasBasket=[
         color:'Белый',
         size:"40",
         kol:"1",
-        price:'1000р.'
+        price:'1000р.',
+
     },
     {
         user:2,
@@ -18,6 +19,7 @@ let MasBasket=[
         size:"44",
         kol:'2',
         price:'1200р.'
-    }
+    },
+
 ]
 export{MasBasket}
