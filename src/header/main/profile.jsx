@@ -12,9 +12,12 @@ return(
 
         <div class={a.price}>
             <h3 >{props.price} </h3>
-            <h3 class={a.old_price}>{props.old_price}</h3>
         </div>
 
+        <div class={a.old_price}>
+        <h3 class={a.old_price}>{props.old_price}</h3>
+        </div>
+        
         <h3 class={a.category}>{props.category}</h3>
 
         <div>

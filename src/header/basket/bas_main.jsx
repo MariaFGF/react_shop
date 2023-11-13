@@ -8,19 +8,18 @@ function PrBasket(){
     return(
         <div class={a.obb_div}>
 
-            <div>
-            <svg class = {a.strn} xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
-                <circle cx="31.5" cy="27.5" r="21.5" transform="rotate(-90 31.5 27.5)" fill="#514A7E"/>
-                <path id = "навзад" d="M22.6464 27.6464C22.4512 27.8417 22.4512 28.1583 22.6464 28.3536L25.8284 31.5355C26.0237 31.7308 26.3403 31.7308 26.5355 31.5355C26.7308 31.3403 26.7308 31.0237 26.5355 30.8284L23.7071 28L26.5355 25.1716C26.7308 24.9763 26.7308 24.6597 26.5355 24.4645C26.3403 24.2692 26.0237 24.2692 25.8284 24.4645L22.6464 27.6464ZM40 27.5L23 27.5L23 28.5L40 28.5L40 27.5Z" fill="#FFFDF5"/>
-            </svg>
-            </div>
+          <div>
+          <button class = {a.strn}><svg class = {a.strn1} xmlns="http://www.w3.org/2000/svg" width="26" height="4" viewBox="0 0 26 4" fill="none">
+          <path id = "Arrow 9.1" d="M25.1768 2.17678C25.2744 2.07915 25.2744 1.92085 25.1768 1.82322L23.5858 0.232233C23.4882 0.134602 23.3299 0.134602 23.2322 0.232233C23.1346 0.329864 23.1346 0.488155 23.2322 0.585786L24.6464 2L23.2322 3.41421C23.1346 3.51184 23.1346 3.67014 23.2322 3.76777C23.3299 3.8654 23.4882 3.8654 23.5858 3.76777L25.1768 2.17678ZM0 2.25H25V1.75H0V2.25Z" fill="#FFFDF5"/>
+          </svg></button>
+          </div>
 
-            <div>
-            <h1>Корзина</h1>
-            </div>
+          <div>
+          <h1 class = {a.k}>Корзина</h1>
+          </div>
 
-            <div> 
-            <section class={a.tovb}>
+          <div> 
+          <section class={a.tovb}>
             {
               MasBasket.map(m=>(
                 <Basket id={m.user}
@@ -33,23 +32,27 @@ function PrBasket(){
                 price={m.price}/>
               ))
             }
-            </section>
-            </div>
+          </section>
+          </div>
 
-            <div>
+          <div>
+            <h2 class = {a.itog}>Итого:</h2>
+          </div>
+
+          <div>
             <button class = {a.btnz}>Заказать</button>
-            </div>
+          </div>
 
-            <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
-            <circle cx="3.5" cy="3.5" r="3.25" stroke="#514A7E" stroke-width="0.5"/>
-            </svg>
-            <button class = {a.btnc}>Согласен с условиями правил пользования торговой площадкой и правилами возврата</button>
-            </div>
+          <div>
+          <svg class = {a.kr} xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+          <circle cx="3.5" cy="3.5" r="3.25" stroke="#514A7E" stroke-width="0.5"/>
+          </svg>
+          <button class = {a.btnc}>Согласен с условиями правил пользования торговой площадкой и правилами возврата</button>            
+          </div>
 
-            <div>
+          <div>
             <img class={a.krug_strelka} src="./img/наверх.svg"/>
-            </div>
+          </div>
 
 
         </div>

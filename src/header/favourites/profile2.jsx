@@ -8,9 +8,11 @@ function Fav(props){
 return(
 
 <div>  
-    <div class={a.fav}>
+    <div class={a.fav1}>
 
-        <img class={a.img} src={props.img}/>
+        <div class={a.fav}>
+            <img class={a.img} src={props.img}/>
+        </div>
 
         <h2 class = {a.price}>
             {props.price}

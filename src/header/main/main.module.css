@@ -365,13 +365,21 @@ margin-top: 55px;
 
 .price h3{
     margin-left: 135px;
-    font-weight: normal;
-    font-size: 85%;
+    font-family: Roboto;
+    font-size: 12px;
 }
 
-.old_price {
+.old_price{
+    display: flex;
+}
+
+.old_price h3{
     color: #7D7D7D;
     text-decoration: line-through;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-top: -27px;
+    margin-left: 180px;
 }
 
 .category{
@@ -383,7 +391,7 @@ margin-top: 55px;
 
 .btn_podrobnee{
     margin-left: 135px;
-    width: 50%;
+    width: 40%;
     height: 40px;
     background-color: #FFFDF5;
     border: 0.5px solid #514A7E;
@@ -406,8 +414,8 @@ margin-top: 55px;
 }
 
 .img{
-    width: 100%;
-    height: 60%;
+    width: 80%;
+    height: 58%;
     margin-left: 120px;
     margin-top: 30px;
 }
@@ -415,7 +423,7 @@ margin-top: 55px;
 .star{
     margin-left: 135px;
     float: right;
-    margin-right: -110px;
+    margin-right: -35px;
     margin-top: -15px;
 }
 
@@ -424,12 +432,12 @@ margin-top: 55px;
 }
 
 .s_v_g{
-    margin-left: 115%;
+    margin-left: 95%;
     margin-top: -32%;
 }
 
 .s_v_g2{
-    margin-left: 124%;
+    margin-left: 105%;
     margin-top: -6.5%;
 }
 
@@ -445,8 +453,7 @@ margin-top: 55px;
 
 .star1 {
     margin-left: 300px;
-    margin-top: 50px;
-    display: flex;
+    margin-top: 40px;
 }
 
 .input2 {
@@ -463,7 +470,6 @@ margin-top: 55px;
     line-height: 170%; 
     margin-left: 300px;
     margin-top: -110px;
-    display: flex;
 }
 
 .date{
@@ -480,7 +486,6 @@ margin-top: 55px;
     line-height: 170%; 
     margin-left: 550px;
     margin-top: -22px;
-    display: flex;
 }
 
 .name {
@@ -496,25 +501,19 @@ margin-top: 55px;
     font-weight: 400;
     line-height: 170%; 
     margin-left: 300px;
-    margin-top: -35px;
-    display: flex;
+    margin-top: -40px;
 }
 
 .imgs{
-    width: 8%;
+    width: 20%;
     height: 60%;
     margin-left: 135px;
     margin-top: 50px;
-    display: flex;
 }
 
-/* .otz {
-    margin-left: 135px;
-    width: 459px;
-    height: 204px; 
-    background: #FFFDF5;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
-} */
+.otz {
+    display: flex;
+}
 
 .div_otz{
     width: 100%;
@@ -522,7 +521,7 @@ margin-top: 55px;
 
 .btn_otz {
     margin-left: 135px;
-    margin-top: 65px;
+    margin-top: 40px;
     width: 148px;
     height: 37px;
     border: 0.5px solid #514A7E;
@@ -541,6 +540,6 @@ margin-top: 55px;
 }
 
 .knopka {
-    margin-left: 650px;
-    margin-top: -240px;
+    margin-left: 710px;
+    margin-top: -140px;
 }

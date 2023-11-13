@@ -9,7 +9,7 @@ function PrFavourites(){
         <div class={a.obf_div}>
 
             <div> 
-            <h1>Избранное</h1>
+            <h1 class = {a.i}>Избранное</h1>
             </div>
 
             <div> 
