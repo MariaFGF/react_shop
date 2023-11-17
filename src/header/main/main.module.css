@@ -206,14 +206,6 @@ margin-top: 55px;
     margin-top: 50px;
 }
 
-.polukr{
-    position: relative;
-    right: -28%;
-    margin-top: -18%; 
-    margin-left: 10px;
-    width: 80%;
-}
-
 .db {
     display: flex;
     width: 550px;
@@ -255,15 +247,13 @@ margin-top: 55px;
     width: 100%;
 }
 
-/* .krug_strelka {
+.krug_strelka {
     position: relative;
-
-} */
+    top: 30%;
+}
 
 .img_krug3{
     width: 40%;
-    position: relative;
-    top: 30%;
     margin-left: 128px;
 }
 
@@ -320,7 +310,6 @@ margin-top: 55px;
 .img_krug6{
     padding-right: 5%;
     width: 90%;
-    position: relative;
     top: 35%;
 }
 .img_krug6:hover{

@@ -57,15 +57,4 @@ function PrText(){
     )
 }
 
-// const goTopbtn = document.querySelector(".img_krug3")
-
-// goTopbtn.addEventListener("click", goTop)
-
-// function goTop() {
-//     if (window.pageYOffset > 0) {
-//         window.scrollBy (0, -75)
-//         setTimeout(goTop, 0)
-//     }
-// }
-
 export{PrText}

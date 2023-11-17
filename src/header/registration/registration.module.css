@@ -2,10 +2,6 @@ body{
     background: #FFFDF5;
 }
 
-.div {
-
-}
-
 .reg {
     display: flex;
     width: 240px;
@@ -90,7 +86,6 @@ body{
 .btn1 {
     margin-top: -39px;
     margin-left: 50px;
-    justify-content: center;
     color: #121212;
     font-family: Roboto;
     font-size: 14px;
@@ -147,14 +142,4 @@ body{
 .img1 {
     margin-left: -245px;
     margin-top: 0.5px;
-    stroke-width: 0.5px;
-    stroke: #514A7E;
-}
-
-.img2 {
-    position: relative;
-    left: 616px;
-    margin-top: -5.3%; 
-    margin-left: 10px;
-    width: 40%;
 }
